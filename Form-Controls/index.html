@@ -14,27 +14,29 @@
     <main>
       <form>
         <div>
-        <label>Name</label>
+        <label for="name">Customer Name</label>
         <input type="text" id="name" placeholder="enter your full name here" required>
         </div>
         <div>
-        <label>Email Address</label>
+        <label for="email">Email Address</label>
         <input type="email" id="email" placeholder="name@example.com" required>
         </div>
         
-       <div>
-        <label>Choose a T-shirt Color</label>
-        <select>
-          <option>Purple</option>
-          <option>Red</option>
-          <option>Turquoise</option>
-          <option>Gold</option>
+
+        <div>
+        <label for="color">Choose a T-shirt Color</label>
+        <select id="color" name="color">
+        <option value="purple">Purple</option>
+        <option value="red">Red</option>
+        <option value="turquoise">Turquoise</option>
+        <option value="gold">Gold</option>
         </select>
+
         </div>
 
 
         <div>
-        <label>Available T-shirt Sizes</label>
+        <label for="sizes">Available T-shirt Sizes</label>
         <select>
           <option>XS</option>
           <option>S</option>
